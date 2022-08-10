@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <section>
+        <div class="container">
+
+            <div class="nav">
+                <p><span id="current"></span>/<span id="count"></span></p>
+                <i class="fas fa-bars" id="menu"></i>
+            </div>
+
+            <ul id="nav-list">
+                
+            </ul>
+
+            <h1 id="title">Music Title 3</h1>
+
+            <p id="singer">Artist</p>
+
+            <img src="img/1.jpg" alt="1" id="poster">
+
+            <div class="btn-container">
+                <i class="fas fa-caret-left"  id="prev"></i>
+                <i class="fas fa-play" id="play"></i>
+                <i class="fas fa-caret-right" id="next"></i>
+            </div>
+
+            <input type="range" id="range" min="1" max="100">
+            <span id="loop" class="loop">Loop All</span>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
